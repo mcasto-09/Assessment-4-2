@@ -8,22 +8,32 @@
   line-height: 20px;
   font-size: 20px;
   color: rgb(255, 255, 255);
-  position: relative;
-  left: -170px;
+  position: absolute;
+  left: 170px;
+  top: 40px;
   padding: 5%;
   padding-bottom: 5%;
-  position: relative;
-  top: 15px;
+  
 }
 
 .following {
   color:white;
   font-size: 20px;
-  position: relative;
-  left: 70px;
-  bottom: 85px;
+  position:absolute;
+  right: 190px;
+  top: 70px
 }
 
 h2 {
-  border: 10px;
+  border:solid 1px white;
+  padding: -10px;
+}
+
+h1 {
+  text-align: left;
+  padding: 20px;
+  border-bottom: 5%;
+  position: absolute;
+  left: 150px;
+  top: -40px
 }
