@@ -43,6 +43,9 @@ header {
 .catStare {
   width: 450px;
   height: 280px;
+  position: absolute;
+  bottom: 350px;
+  left: 300px;
 }
 
 .post {
@@ -54,4 +57,16 @@ header {
 
 p {
   font-size: large;
+}
+
+.responses {
+  display: flex;
+  position: absolute;
+  bottom: 300px;
+  right: 390px
+}
+.text {
+  position: absolute;
+  top: 200px;
+  left: 450px;
 }
