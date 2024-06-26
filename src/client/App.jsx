@@ -10,9 +10,9 @@ function App() {
   const repost = () => {
     return alert('Reposted')
   }
-  // posts array
-
-
+  const reply  = () => {
+    
+  }
 
   return (
     <div>
