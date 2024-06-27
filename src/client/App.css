@@ -63,10 +63,21 @@ p {
   display: flex;
   position: absolute;
   bottom: 300px;
-  right: 390px
+  right: 390px;
 }
 .text {
   position: absolute;
   top: 200px;
   left: 450px;
+}
+
+h3 {
+  position: absolute;
+  top: 650px;
+  left: 300px;
+}
+.user1 {
+  position: absolute;
+  top: 700px;
+  left: 350px;
 }

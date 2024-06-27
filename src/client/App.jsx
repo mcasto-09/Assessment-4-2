@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React,{ useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 
@@ -10,9 +10,11 @@ function App() {
   const repost = () => {
     return alert('Reposted')
   }
-  const reply  = () => {
-    
+
+  function deletePhoto() {
+    this.props.delete
   }
+  
 
   return (
     <div>
@@ -28,7 +30,12 @@ function App() {
       <div className="responses">
         <button className="like" onClick={click}>Likes:{count}</button>
         <button className="repost" onClick={repost}>Repost</button>
-        <button className="comment">Comment</button>
+        <button className="comment" type="text">Comment</button>
+        <button className="deletePost">Delete Post</button>
+      </div>
+      <div className="comments">
+        <h3>Comments</h3>
+        <p className="user1"> User 1:  </p>
       </div>
     </div>
   );
